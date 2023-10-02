@@ -6,6 +6,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),nx729j)
+ifeq ($(TARGET_DEVICE),NX729J)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
